@@ -73,12 +73,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="-1.27" y1="91.44" x2="-1.27" y2="5.08" width="1.016" layer="20"/>
-<wire x1="-1.27" y1="5.08" x2="45.72" y2="5.08" width="1.016" layer="20"/>
+<wire x1="0" y1="91.44" x2="0" y2="5.08" width="1.016" layer="20"/>
+<wire x1="0" y1="5.08" x2="45.72" y2="5.08" width="1.016" layer="20"/>
 <wire x1="45.72" y1="5.08" x2="45.72" y2="22.86" width="1.016" layer="20"/>
 <wire x1="96.52" y1="15.24" x2="83.82" y2="27.94" width="1.016" layer="20"/>
 <wire x1="45.72" y1="73.66" x2="45.72" y2="91.44" width="1.016" layer="20"/>
-<wire x1="-1.27" y1="91.44" x2="45.72" y2="91.44" width="1.016" layer="20"/>
+<wire x1="0" y1="91.44" x2="45.72" y2="91.44" width="1.016" layer="20"/>
 <wire x1="96.52" y1="80.01" x2="96.52" y2="87.63" width="1.016" layer="20"/>
 <wire x1="96.52" y1="15.24" x2="96.52" y2="8.89" width="1.016" layer="20"/>
 <wire x1="85.09" y1="68.58" x2="121.92" y2="68.58" width="1.016" layer="20"/>
@@ -87,10 +87,12 @@
 <wire x1="121.92" y1="68.58" x2="121.92" y2="27.94" width="1.016" layer="20"/>
 <wire x1="45.72" y1="22.86" x2="71.12" y2="22.86" width="1.016" layer="20"/>
 <wire x1="45.72" y1="73.66" x2="71.12" y2="73.66" width="1.016" layer="20"/>
-<wire x1="85.09" y1="87.63" x2="96.52" y2="87.63" width="1.016" layer="20"/>
-<wire x1="85.09" y1="8.89" x2="96.52" y2="8.89" width="1.016" layer="20"/>
+<wire x1="86.36" y1="87.63" x2="96.52" y2="87.63" width="1.016" layer="20"/>
+<wire x1="86.36" y1="8.89" x2="96.52" y2="8.89" width="1.016" layer="20"/>
+<wire x1="86.36" y1="87.63" x2="85.09" y2="87.63" width="1.016" layer="20"/>
 <wire x1="85.09" y1="87.63" x2="71.12" y2="73.66" width="1.016" layer="20"/>
 <wire x1="71.12" y1="22.86" x2="85.09" y2="8.89" width="1.016" layer="20"/>
+<wire x1="85.09" y1="8.89" x2="86.36" y2="8.89" width="1.016" layer="20"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -647,12 +649,11 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="RAW"/>
 <contactref element="TB1" pad="VM"/>
 <contactref element="JP4" pad="1"/>
-<wire x1="19.05" y1="60.96" x2="21.59" y2="63.5" width="1.016" layer="16"/>
-<wire x1="21.59" y1="63.5" x2="40.64" y2="63.5" width="1.016" layer="16"/>
-<wire x1="40.64" y1="63.5" x2="44.45" y2="67.31" width="1.016" layer="16"/>
-<wire x1="44.45" y1="67.31" x2="53.34" y2="67.31" width="1.016" layer="16"/>
-<wire x1="13.97" y1="54.61" x2="19.05" y2="55.88" width="1.016" layer="16"/>
-<wire x1="19.05" y1="55.88" x2="19.05" y2="60.96" width="1.016" layer="16"/>
+<wire x1="13.97" y1="54.61" x2="19.05" y2="59.69" width="0.6096" layer="16"/>
+<wire x1="19.05" y1="59.69" x2="19.05" y2="60.96" width="0.6096" layer="16"/>
+<wire x1="19.05" y1="60.96" x2="21.59" y2="63.5" width="0.6096" layer="16"/>
+<wire x1="49.53" y1="63.5" x2="21.59" y2="63.5" width="0.6096" layer="16"/>
+<wire x1="53.34" y1="67.31" x2="49.53" y2="63.5" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="JP1" pad="2"/>
@@ -696,24 +697,24 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="TB1" pad="A1"/>
 <contactref element="JP5" pad="2"/>
-<wire x1="13.97" y1="46.99" x2="3.81" y2="46.99" width="1.016" layer="16"/>
-<wire x1="3.81" y1="46.99" x2="3.81" y2="44.45" width="1.016" layer="16"/>
+<wire x1="13.97" y1="46.99" x2="3.81" y2="46.99" width="0.6096" layer="16"/>
+<wire x1="3.81" y1="46.99" x2="3.81" y2="44.45" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$11">
 <contactref element="TB1" pad="A2"/>
 <contactref element="JP5" pad="4"/>
-<wire x1="13.97" y1="44.45" x2="6.35" y2="44.45" width="1.016" layer="16"/>
+<wire x1="13.97" y1="44.45" x2="6.35" y2="44.45" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="TB1" pad="B2"/>
 <contactref element="JP5" pad="3"/>
-<wire x1="6.35" y1="41.91" x2="13.97" y2="41.91" width="1.016" layer="16"/>
+<wire x1="6.35" y1="41.91" x2="13.97" y2="41.91" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="TB1" pad="B1"/>
 <contactref element="JP5" pad="1"/>
-<wire x1="3.81" y1="41.91" x2="3.81" y2="39.37" width="1.016" layer="16"/>
-<wire x1="3.81" y1="39.37" x2="13.97" y2="39.37" width="1.016" layer="16"/>
+<wire x1="3.81" y1="41.91" x2="3.81" y2="39.37" width="0.6096" layer="16"/>
+<wire x1="3.81" y1="39.37" x2="13.97" y2="39.37" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$1" pad="A5"/>
@@ -765,6 +766,10 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="2"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="JP3" pad="1"/>
+<wire x1="53.34" y1="64.77" x2="92.71" y2="82.39" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="59.69" x2="53.34" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="36.83" x2="16.51" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="92.71" y1="13.97" x2="114.3" y2="64.77" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

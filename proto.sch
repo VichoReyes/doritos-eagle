@@ -1197,6 +1197,50 @@ http://www.xganon.com</description>
 <wire x1="165.1" y1="-48.26" x2="213.36" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GND" class="0">
+<segment>
+<pinref part="TB1" gate="G$1" pin="GND2"/>
+<wire x1="73.66" y1="-50.8" x2="73.66" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-55.88" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TB1" gate="G$1" pin="GND3"/>
+<wire x1="104.14" y1="-50.8" x2="111.76" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-50.8" x2="111.76" y2="-53.34" width="0.1524" layer="91"/>
+<label x="71.12" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="165.1" y1="-17.78" x2="177.8" y2="-17.78" width="0.1524" layer="91"/>
+<label x="132.08" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="132.08" y1="-22.86" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
+<label x="187.96" y="-68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="187.96" y1="-76.2" x2="187.96" y2="-68.58" width="0.1524" layer="91"/>
+<label x="154.94" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="12.7" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="7.62" x2="157.48" y2="7.62" width="0.1524" layer="91"/>
+<label x="182.88" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="185.42" y1="2.54" x2="177.8" y2="2.54" width="0.1524" layer="91"/>
+<label x="200.66" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="205.74" y1="-27.94" x2="195.58" y2="-27.94" width="0.1524" layer="91"/>
+<label x="109.22" y="-50.8" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
